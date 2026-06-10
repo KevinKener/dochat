@@ -1,0 +1,31 @@
+# Web framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Config
+pydantic-settings==2.6.1
+python-dotenv==1.0.1
+
+# Logging
+structlog==24.4.0
+
+# LangChain + RAG
+langchain==0.3.9
+langchain-anthropic==0.3.0
+langchain-openai==0.2.10
+langchain-community==0.3.9
+langchain-chroma==0.1.4
+
+# Vector store
+chromadb==0.5.23
+
+# Embeddings fallback
+sentence-transformers==3.3.1
+
+# File parsing
+pypdf==5.1.0
+python-docx==1.1.2
+python-multipart==0.0.17
+
+# HTTP client (async)
+httpx==0.28.0
